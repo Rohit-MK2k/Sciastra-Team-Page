@@ -7,3 +7,16 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.active,.pending{
+    color: #9010B0;
+    border-bottom: 2px solid #9010B0;
+    margin-bottom: -1px;
+}
+.nav-link{
+    transition: all ease-in-out 100ms;
+}
+.nav-link:hover{
+    color: #9010B0;
+    border-bottom: 2px solid #9010B0;
+    margin-bottom: -1px;
+}
